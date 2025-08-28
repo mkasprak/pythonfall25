@@ -1,0 +1,5 @@
+print("String " + "Hello World")
+print("int " + "42")
+print(42 + 22)
+print(40 * 6)
+print(40 / 7)
