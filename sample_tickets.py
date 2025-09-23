@@ -6,12 +6,12 @@
 # generate
 
 caller = [1,2,3,4,5,6,7,8,9,10 ]
-# caller.remove(7)
-# for call in caller:
-#     if call != 7:
-#         print(f"I'm sorry, you are caller number {call}")
-#     else:
-#         print(f"Congratulations, you win!!!!")
+caller.remove(7)
+for call in caller:
+    if call != 7:
+        print(f"I'm sorry, you are caller number {call}")
+    else:
+        print(f"Congratulations, you win!!!!")
 
 
 # guess a number
@@ -24,3 +24,9 @@ while guess <= 0 or guess > 10:
 caller.remove(guess)
 for call in caller:
     print(call)
+
+
+if 11 in caller:
+    print("You are the 11th caller")   
+else:
+    print("That number is not in the list") 

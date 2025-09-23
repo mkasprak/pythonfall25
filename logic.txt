@@ -1,0 +1,8 @@
+1. create a list (1-20) of available seats
+Loop - buy tickets till user enters 0, loop and give error message if invalid
+    a. print the list or use a for loop to print individually
+    b. Have customer enter seat number or 0 to stop
+    if number IN list:
+        remove, append to purchsed - You have purchased ticket # renter loop
+
+you purchased  - and the purchased tickets
