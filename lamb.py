@@ -19,7 +19,7 @@ def story(name_in, size_in, animal_in, color_in):
     print(f"{name_in} had a {size_in} {animal_in}")
     print(f"{size_in} {animal_in}")
     print(f"{size_in} {animal_in}")
-    print(f"Whose fleece was {color_in} as snow")
+    print(f"<mark>Whose fleece was {color_in} as snow</mark>")
 
     print("Original poem by Sarah Josepha Hale")
 
