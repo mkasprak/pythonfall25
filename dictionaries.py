@@ -25,3 +25,9 @@ numbers_japanese = {
     19: "juu-kyuu",
     20: "ni-juu"
 }
+
+
+# using keys 
+
+number_10 = numbers_japanese[10]
+print(number_10)

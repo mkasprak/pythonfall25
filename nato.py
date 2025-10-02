@@ -26,3 +26,9 @@ nato_phonetic = {
     "Y": "Yankee",
     "Z": "Zulu"
 }
+
+
+text = "Hello world"
+uppercase_text = text.upper()
+
+print(uppercase_text) 
