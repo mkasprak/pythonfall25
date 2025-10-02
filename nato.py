@@ -1,4 +1,4 @@
-nato_phonetic = {
+NATO = { # uppercase because it is a constant, global because outside of functions
     "A": "Alpha",
     "B": "Bravo",
     "C": "Charlie",
@@ -24,7 +24,8 @@ nato_phonetic = {
     "W": "Whiskey",
     "X": "X-ray",
     "Y": "Yankee",
-    "Z": "Zulu"
+    "Z": "Zulu",
+    " ": " "
 }
 
 
@@ -32,3 +33,38 @@ text = "Hello world"
 uppercase_text = text.upper()
 
 print(uppercase_text) 
+
+
+"""
+Declare Global dictionary
+
+function to get word from user
+convert to all caps
+
+Loop
+    use one of the dictionary methods to look up the nato value for each letter
+    print nato value and a space
+
+main
+provide directions,
+call function
+
+call main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""

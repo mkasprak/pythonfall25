@@ -28,6 +28,18 @@ numbers_japanese = {
 
 
 # using keys 
+# for i in range(1,21):
+#     number = numbers_japanese[i]
+#     print(number)
 
-number_10 = numbers_japanese[10]
-print(number_10)
+
+
+value = numbers_japanese.get(0, "rei")
+print(value)
+
+for key in numbers_japanese:
+    print(key, numbers_japanese[key])
+
+for key, value in numbers_japanese.items():
+    if key > 10:
+     print(key, value)
