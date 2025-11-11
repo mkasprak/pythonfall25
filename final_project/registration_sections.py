@@ -64,6 +64,12 @@ class Student:
         print(self.__student_id)
         print(self.__grade_level)
 
+    def mailing(self):
+        """All mailing labels"""
+
+    def tuition_reminder(self):
+        """Create bill"""
+
 class Section:
     """ contains section information, class name, times, instructor etc."""
     def __init__(self, course_name, number, section, subject = "ADD"):
