@@ -18,18 +18,25 @@
 """
 
 class Student:
-    """ Student class here - address, phone, name, email"""
+    """ Student class here """
     # Class variable
     school_name = "McHenry County College"
 
-    def __init__(self, first_name, last_name, student_id, grade_level="Freshman"):
+    def __init__(self, first_name, last_name, student_id, phone, email, street_address, city, state, zip):
         # Instance variables
         self.__first_name = first_name
         self.__last_name = last_name
         self.__student_id = student_id
-        self.__grade_level = grade_level
+        self.__phone = phone
+        self.__email = email
+        self.__street_address = street_address
+        self.__city = city
+        self.__state = state
+        self.__zip = zip
+     
+        
 
-    # Getter and Setter for first_name
+    # Getter and Setters. 
     def get_first_name(self):
         return self.__first_name
     
@@ -38,9 +45,24 @@ class Student:
         
     def get_student_id(self):
         return self.__student_id
-    
-    def get_grade_level(self):
-        return self.__grade_level
+
+    def get_phone(self):
+        return self.__phone
+
+    def get_email(self):
+        return self.__email
+
+    def get_street_address(self):
+        return self.__street_address
+
+    def get_city(self):
+        return self.__city
+
+    def get_state(self):
+        return self.__state
+
+    def get_zip(self):
+        return self.__zip
 
     def set_first_name(self, value):
         self.__first_name = value
@@ -54,15 +76,35 @@ class Student:
     def set_grade_level(self, value):
         self.__grade_level = value
 
+    def set_phone(self, value):
+        self.__phone = value
+
+    def set_email(self, value):
+        self.__email = value
+
+    def set_street_address(self, value):
+        self.__street_address = value
+
+    def set_city(self, value):
+        self.__city = value
+
+    def set_state(self, value):
+        self.__state = value
+
+    def set_zip(self, value):
+        self.__zip = value
+
     # Method to print student details
     def print_student_details(self):
         print("Student Details:", vars(self))
     
-    # Method to print basic info about the student
+    # Method to print basic info about the student  
     def print_info(self):
-        print(self.__first_name + " " + self.__last_name)
-        print(self.__student_id)
-        print(self.__grade_level)
+        print(f"{self.__first_name} {self.__last_name} info:")
+        print(f"email: {self.__email}   Phone: {self.__phone}")
+        print(f"Address: {self.__street_address}, {self.__city}, {self.__state} {self.__zip}")
+        
+        
 
     def mailing(self):
         """All mailing labels"""
@@ -71,13 +113,18 @@ class Student:
         """Create bill"""
 
 class Section:
-    """ contains section information, class name, times, instructor etc."""
-    def __init__(self, course_name, number, section, subject = "ADD"):
+    """ contains section information: course name, number, section, subject,
+        building, room, days, and time. """
+    def __init__(self, course_name, number, section, subject="ADD", building=None, room=None, days=None, time=None):
         # Instance variables
         self.__course_name = course_name
         self.__number = number
         self.__section = section
         self.__subject = subject
+        self.__building = building
+        self.__room = room
+        self.__days = days
+        self.__time = time
 
     # Getter and Setter for first_name
     def get_course_name(self):
@@ -92,6 +139,18 @@ class Section:
     def get_subject(self):
         return self.__subject
     
+    def get_building(self):
+        return self.__building
+
+    def get_room(self):
+        return self.__room
+
+    def get_days(self):
+        return self.__days
+
+    def get_time(self):
+        return self.__time
+    
     def set_course_name(self, value):
         self.__course_name = value
 
@@ -104,9 +163,24 @@ class Section:
     def set_subject(self, value):
         self.__subject = value
     
+    def set_building(self, value):
+        self.__building = value
+
+    def set_room(self, value):
+        self.__room = value
+
+    def set_days(self, value):
+        self.__days = value
+
+    def set_time(self, value):
+        self.__time = value
+    
         # Method to print basic info about the section
     def print_info(self):
-        print(f"{self.__subject}{self.__number}-{self.__section} {self.__course_name}")
+        print(f"{self.__subject} {self.__number}-{self.__section}: {self.__course_name} ")
+        print(f"Location: {self.__building} Room: {self.__room}")
+        print(f"Days: {self.__days} Time: {self.__time}")
+        
         
     
 
@@ -130,6 +204,8 @@ def verify_info():
 
 def billing():
     """Create bill"""
+
+
 def main():
     """ Organizes logic flow """
     directions() # calls the directions functioin
@@ -139,7 +215,7 @@ def main():
     verify_info()
     billing()
 
-    class1 = Section("Programming Logic", "100", "001", "ADD")
+    class1 = Section("Programming Logic", "100", "001", "ADD", "G", "204", "TTh", "10:00-11:50  ")
     class1.print_info()
 
 
