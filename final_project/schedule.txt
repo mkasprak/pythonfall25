@@ -1,0 +1,54 @@
+CDM,110,001,CMPTR LIT - WINDOWS,Intro to Windows business software,12/15/2025 - 1/9/2026,Flexible Online,Kasprak Meri,Online,N/A
+CDM,110,002,CMPTR LIT - WINDOWS,Intro to Windows business software,1/20/2026 - 5/16/2026,Flexible Online,Kasprak Meri,Online,N/A
+CDM,110,003,CMPTR LIT - WINDOWS,Intro to Windows business software,1/20/2026 - 5/8/2026,T/Th 1:00 PM - 2:20 PM,Skrzypczak Bill,G,204
+CDM,110,004,CMPTR LIT - WINDOWS,Intro to Windows business software,2/16/2026 - 5/16/2026,Flexible Online,Kasprak Meri,Online,N/A
+CDM,110,005,CMPTR LIT - WINDOWS,Intro to Windows business software,3/16/2026 - 5/16/2026,Flexible Online,Skrzypczak Bill,Online,N/A
+CDM,290,001,TOPICS IN CDM & DGM,Special topic in computers and digital media,1/20/2026 - 5/16/2026,T/Th 9:00 AM - 10:00 AM,Kasprak Meri,G,103
+CSC,121,001,CMPTR SCIENCE I,Intro to programming and algorithm design,1/20/2026 - 5/8/2026,T/Th 4:00 PM - 5:20 PM,Nath Sanju,A,104
+CSC,121,002,CMPTR SCIENCE I,Intro to programming and algorithm design,1/21/2026 - 5/11/2026,Scheduled Online,Nath Sanju,Online,N/A
+CSC,122,001,CMPTR SCIENCE II,Data structures and advanced programming,1/21/2026 - 5/11/2026,M/W 4:00 PM - 5:20 PM,Nath Sanju,A,104
+ADD,100,001,PROGRAMMING LOGIC,Intro to programming concepts,1/20/2026 - 5/8/2026,T/Th 11:00 AM - 12:00 PM,Kasprak Meri,G,204
+ADD,100,002,PROGRAMMING LOGIC,Intro to programming concepts,1/20/2026 - 5/16/2026,Flexible Online,Kasprak Meri,Online,N/A
+ADD,100,003,PROGRAMMING LOGIC,Intro to programming concepts,2/16/2026 - 5/16/2026,Flexible Online,Grieb Cindy,Online,N/A
+ADD,103,001,FUNDAMENTAL WEB DEV,Intro to HTML and CSS hand coding,1/20/2026 - 5/16/2026,Flexible Online,Boesen David M.,Online,N/A
+ADD,109,001,DATABASE FUNDAMENTALS,Intro to MySQL and database design,1/20/2026 - 5/16/2026,Flexible Online,Grieb Cindy,Online,N/A
+ADD,140,001,UX DESIGN,Intro to UI and UX principles,1/20/2026 - 5/16/2026,Flexible Online,Johns Jennie,Online,N/A
+ADD,147,001,JAVASCRIPT PROG I,Intro to JavaScript for the web,1/20/2026 - 5/16/2026,Flexible Online,Skrzypczak Bill,Online,N/A
+ADD,153,001,ADVANCED WEB DEV,Advanced HTML and CSS techniques,2/16/2026 - 5/16/2026,Flexible Online,Boesen David M.,Online,N/A
+ADD,175,001,CONTENT MGMT SYS FOR WEB,Intro to WordPress and CMS tools,1/20/2026 - 5/16/2026,Flexible Online,Boesen David M.,Online,N/A
+ADD,212,001,PHP AND MYSQL,Full-stack web development with PHP,1/20/2026 - 5/16/2026,Flexible Online,Skrzypczak Bill,Online,N/A
+ADD,215,001,AMAZON WEB SERV,Intro to cloud services with AWS,1/21/2026 - 5/11/2026,M/W 1:00 PM - 2:00 PM,Skrzypczak Bill,G,204
+ADD,245,001,MACHINE LEARNING PYTHON,Intro to machine learning in Python,1/20/2026 - 5/16/2026,Flexible Online,Skrzypczak Bill,Online,N/A
+ADD,280,001,SADD CAPSTONE,Advanced software development project,1/20/2026 - 5/16/2026,Blended Schedule,Skrzypczak Bill,G,208
+BUS,145,001,BUSINESS MATH,Applied math for business,1/21/2026 - 5/8/2026,W 8:30 AM - 9:50 AM,Johnson Trevor,A,127
+BUS,145,002,BUSINESS MATH,Applied math for business,1/20/2026 - 5/16/2026,Flexible Online,Baser,Online,N/A
+BUS,145,003,BUSINESS MATH,Applied math for business,3/16/2026 - 5/16/2026,Flexible Online,Baser,Online,N/A
+BUS,150,001,INTRO BUSINESS,Survey of modern business concepts,1/26/2026 - 5/11/2026,M 11:30 AM - 12:50 PM,Ridge Sherry,A,123
+BUS,150,002,INTRO BUSINESS,Survey of modern business concepts,1/21/2026 - 5/11/2026,M/W 1:00 PM - 2:20 PM,Messman Wayne,A,127
+BUS,150,003,INTRO BUSINESS,Survey of modern business concepts,2/17/2026 - 5/8/2026,T/Th 8:30 AM - 9:50 AM,Froese Bill,A,127
+BUS,150,004,INTRO BUSINESS,Survey of modern business concepts,2/19/2026 - 5/8/2026,Th 6:00 PM - 7:50 PM,Garza Maricella,A,127
+BUS,150,005,INTRO BUSINESS,Survey of modern business concepts,1/21/2026 - 3/13/2026,Flexible Online,Froese Bill,Online,N/A
+BUS,150,006,INTRO BUSINESS,Survey of modern business concepts,1/23/2026 - 3/13/2026,Flexible Online,Kuhlin Whitney,Online,N/A
+BUS,150,007,INTRO BUSINESS,Survey of modern business concepts,2/16/2026 - 5/16/2026,Flexible Online,Ridge Sherry,Online,N/A
+BUS,150,008,INTRO BUSINESS,Survey of modern business concepts,1/21/2026 - 5/16/2026,Flexible Online,Gerber Carol,Online,N/A
+BUS,150,009,INTRO BUSINESS,Survey of modern business concepts,3/16/2026 - 5/16/2026,Flexible Online,Sullivan Sarah,Online,N/A
+BUS,150,010,INTRO BUSINESS,Survey of modern business concepts,12/15/2025 - 1/9/2026,Flexible Online,Ridge Sherry,Online,N/A
+BUS,155,001,BUSINESS COMMUNICATION,Basic business communication skills,2/17/2026 - 5/8/2026,T/Th 10:00 AM - 11:20 AM,Freelove Julie,A,123
+BUS,155,002,BUSINESS COMMUNICATION,Basic business communication skills,1/23/2026 - 3/13/2026,Flexible Online,Parr Jason,Online,N/A
+BUS,155,003,BUSINESS COMMUNICATION,Basic business communication skills,3/18/2026 - 5/16/2026,Flexible Online,Moore Heather,Online,N/A
+BUS,160,001,INTRO ENTREPRENEURSHIP,Intro to launching a small business,2/16/2026 - 5/8/2026,M/W 10:00 AM - 11:20 AM,Ridge Sherry,A,123
+BUS,160,002,INTRO ENTREPRENEURSHIP,Intro to launching a small business,1/20/2026 - 3/13/2026,Flexible Online,Ridge Sherry,Online,N/A
+BUS,162,001,ENTREPRENEURSHIP BUS PLAN,Intro to writing a business plan,3/16/2026 - 5/16/2026,Flexible Online,Parr Jason,Online,N/A
+BUS,165,001,ELECTRONIC COMMERCE,Intro to online business systems,2/16/2026 - 5/16/2026,Flexible Online,Baehne Bobbi,Online,N/A
+BUS,175,001,INTRO INTERNATIONAL BUS,Intro to global business concepts,3/16/2026 - 5/16/2026,Flexible Online,Granatelli Dean,Online,N/A
+BUS,220,001,HUMAN RELATIONS & TEAM BUILDING,Skills for teamwork and communication,2/16/2026 - 5/16/2026,Flexible Online,Kuhlin Whitney,Online,N/A
+BUS,235,001,BUSINESS ETHICS,Intro to ethical decision making,2/16/2026 - 5/16/2026,Flexible Online,Schottland Carolina,Online,N/A
+BUS,241,001,BUSINESS LAW,Intro to business law principles,1/26/2026 - 5/11/2026,M 6:00 PM - 7:50 PM,Day Fred,A,127
+BUS,241,002,BUSINESS LAW,Intro to business law principles,2/16/2026 - 5/16/2026,Flexible Online,Berry Robin,Online,N/A
+BUS,241,003,BUSINESS LAW,Intro to business law principles,1/22/2026 - 5/16/2026,Flexible Online,Schottland Carolina,Online,N/A
+BUS,241,004,BUSINESS LAW,Intro to business law principles,3/16/2026 - 5/16/2026,Flexible Online,Schottland Carolina,Online,N/A
+BUS,299,001,AI FOR PROFESSIONALS,Intro to AI tools for the workplace,2/16/2026 - 5/16/2026,Flexible Online,Martin Scott,Online,N/A
+BUS,299,002,HUMAN RES COMP & BENE,Intro to HR compensation concepts,1/20/2026 - 3/13/2026,Flexible Online,Kuhlin Whitney,Online,N/A
+ANI,103,001,ANIMATION TECH 1,Intro to animation techniques,1/20/2026 - 5/8/2026,T/Th 10:00 AM - 12:50 PM,Benedetto Michael,A,117
+ANI,105,001,3D MODEL & ANIMATION 1,Intro to 3D modeling and animation,1/21/2026 - 5/11/2026,M/W 10:00 AM - 12:50 PM,A,117
+ANI,203,001,ANIMATION TECH 2,Advanced animation techniques,1/20/2026 - 5/8/2026,T/Th 10:00 AM - 12:50 PM,Benedetto Michael,A,117
