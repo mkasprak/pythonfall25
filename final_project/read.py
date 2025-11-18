@@ -108,7 +108,8 @@ class Student:
         """Save student information for current object to file appended"""  
         # open  our file
         with open('final_project/students.txt', 'a') as file:
-            file.write(f"{self.__first_name}, {self.__last_name}, {self.__email}, {self.__phone}, {self.__street_address}, {self.__city}, {self.__state}, {self.__zip}")
+            # 🔚Please note you have to put in a new line symbol "\n" to end the line
+            file.write(f"{self.__first_name}, {self.__last_name}, {self.__email}, {self.__phone}, {self.__street_address}, {self.__city}, {self.__state}, {self.__zip}\n")
             file.close()
 
     def mailing(self):
@@ -120,8 +121,8 @@ class Student:
 class Section:
     """ contains section information: course name, number, section, subject,
         building, room, days, and time. """
-    def __init__(self, course_name, number, section, subject="ADD", building=None, room=None, days=None, time=None):
-        # Instance variables
+    def __init__(self, subject, number, section, course_name,
+                 description, dates, times, instructor, building, room):
         self.__course_name = course_name
         self.__number = number
         self.__section = section
@@ -193,7 +194,7 @@ def directions():
     """ print a welcome message with directions on screen"""
 
 def student_info():
-    """ Get student info, create an object with it, and write to file"""
+    """ ✍🏽 Get student info, create an object with it, and write to file"""
     # pass information into class student
     # get input from the student - commented needed variables
     #     self.__first_name = first_name
@@ -221,8 +222,42 @@ def student_info():
     #  my_student.print_info()
     my_student.save_to_file()
 
+
 def display_classes():
     """ load available course sections from file, create an object for each one """
+    # 📖 file final_project/read
+    # 🐍 note from meri
+    sections = []
+    with open("final_project/schedule.txt", "r") as file:
+        for line in file:
+            # 🐞print(line)
+            data = line.strip().split(",")
+           
+            
+            # Assign each column to a variable
+            subject = data[0]
+            number = data[1]
+            section = data[2]
+            course_name = data[3]
+            times = data[6]
+            instructor = data[7]
+            building = data[8]
+            room = data[9]
+
+        obj = sections(course_name=course_name,
+                course_name=course_name,
+                number=number,
+                section=section,
+                subject=subject,
+                building=building,
+                room=room,
+                days=days,
+                time=times,
+                instructor=instructor
+            )
+        print(obj.print_info())
+
+
 
 def select_classes():
     """lets them pick classes from menu add to a list"""
