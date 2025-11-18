@@ -122,7 +122,7 @@ class Section:
     """ contains section information: course name, number, section, subject,
         building, room, days, and time. """
     def __init__(self, subject, number, section, course_name,
-                 description, dates, times, instructor, building, room):
+                 description, dates, times, instructor, building, room, days, time):
         self.__course_name = course_name
         self.__number = number
         self.__section = section
@@ -244,7 +244,7 @@ def display_classes():
             building = data[8]
             room = data[9]
 
-        obj = sections(course_name=course_name,
+        obj = sections(
                 course_name=course_name,
                 number=number,
                 section=section,
