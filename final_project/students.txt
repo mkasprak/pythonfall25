@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 m, k, 1, 1, 1, 1, 1, 1m, k, 2, 2, 2, 2, 2, 2
+=======
+m, k, 1, 1, 1, 1, 1, 1Meri, Kasprak, mkasprak@mchenry.edu, 815-555-5555, 8900 Route 14, Crystal Lake, IL, 60012
+>>>>>>> 5e9efbe24cc99ba4706ead1ed87df7a5016fd4e0
