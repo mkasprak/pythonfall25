@@ -73,7 +73,6 @@ def display_classes():
     """
     pass
 
-
 def select_classes():
     """Allows student to pick classes from a menu.
 
