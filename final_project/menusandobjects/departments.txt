@@ -1,0 +1,5 @@
+CDM, Computers and Digital Media
+CSC, Computer Science
+ADD, Software Application Design and development
+BUS, Business
+ANI, Animation

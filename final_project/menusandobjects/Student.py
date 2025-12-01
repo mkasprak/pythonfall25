@@ -27,14 +27,14 @@ class Student:
 
     school_name = "McHenry County College"   # Class-level attribute
 
-    def __init__(self, first_name, last_name, student_id, phone,
+    def __init__(self, first_name, last_name, student_id, phone, 
                  email, street_address, city, state, zip):
         # Private attributes using name-mangling
         self.__first_name = first_name
         self.__last_name = last_name
         self.__student_id = student_id
-        self.__phone = phone
         self.__email = email
+        self.__phone = phone
         self.__street_address = street_address
         self.__city = city
         self.__state = state
@@ -109,6 +109,13 @@ class Student:
         print(f"Email: {self.__email}   Phone: {self.__phone}")
         print(f"Address: {self.__street_address}, {self.__city}, "
               f"{self.__state} {self.__zip}")
+    
+    def print_info_numbered(self):
+        """Display a formatted line of student information."""
+        print(f"1. {self.__first_name} \n2.  {self.__last_name} \n")
+        print(f"3. Email: {self.__email} \n4.  Phone: {self.__phone} \n")
+        print(f"5. Address: {self.__street_address} \n6. {self.__city} \n"
+              f"7. {self.__state} \n8 {self.__zip}")
 
     def save_to_file(self):
         """
@@ -119,7 +126,8 @@ class Student:
             • Use commas or tabs consistently.
             • Use write() multiple times or format strings neatly.
         """
-        with open("final_project/students.txt", "a") as f:
-            f.write(f"{self.__first_name}, {self.__last_name}, {self.__email}, "
+        with open("final_project/menusandobjects/students.txt", "a") as f:
+            f.write(f"{self.__first_name}, {self.__last_name}, {self.__student_id}, {self.__email}, "
                     f"{self.__phone}, {self.__street_address}, {self.__city}, "
                     f"{self.__state}, {self.__zip}\n")
+
