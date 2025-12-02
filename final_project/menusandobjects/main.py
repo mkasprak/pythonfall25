@@ -3,7 +3,7 @@ main.py
 -------
 Main program for the Final Project (simplified and heavily commented).
 
-This version now matches the simplified sections.txt file:
+This version now matches the simplified schedule.txt file:
 subject,number,section,course_name,building,room,days,time
 """
 
@@ -159,7 +159,7 @@ def verify_info(sid):
 # ----------------------------------------------------------------------
 def display_classes():
     """
-    Loads sections.txt, creates Section objects,
+    Loads schedule.txt, creates Section objects,
     and displays them GROUPED BY SUBJECT using a while loop.
 
     NEW FILE FORMAT (8 fields):
@@ -168,7 +168,7 @@ def display_classes():
 
     section_list = []
 
-    with open("final_project/menusandobjects/sections.txt") as sfile:
+    with open("final_project/menusandobjects/schedule.txt") as sfile:
         for line in sfile:
             line = line.strip()
 
