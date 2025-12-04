@@ -1,5 +1,4 @@
-Meri,   Kasprak,   22,   merikasprak@gmail.com,   222-222-2222,   111 Willow Ave.,   Harvard,   IL,   60033
-Meredith,   Engel,  235,   merilengel@gmail.com,   555-555-5555,   103 West Burbank St,   Harvard ,   IL ,  60034
-Meredith,  Kasprak, 789,  meredithkasprak@gmail.com,  555-666-7777,  188 Willow Ln,  Marengo,  IL , 60154
-Meredith ,  Engel,  987,  meri@gmail.com,  333=333=3333,  234 Wickam way,  McHenry,  IL,  60235
-Meri,  Kasprak,  12345,  mkasprak@mchenry.edu,  555-555-5555,  8900 rt 14 ,  Crystal Lake,  IL,  60013
+Meri,   Kasprak,  1234,   mkasprak@mchenry.edu,   555-555-5555,   170 Willey St,   Gilberts,  IL,   60136
+Michael, Albright, 3456, mosh@gmail.com, 444-444-4444, somewhere, eloy, AZ, 55555
+Kathy,Engel,6789,katengel@gmail.com,888-888-8888,19007 Millstream,Marengeo,IL ,60152
+Matthew,Albright,987,matthewlalbright@gmail.com,000-000-0000,somewhere,Monroe,NC,98732

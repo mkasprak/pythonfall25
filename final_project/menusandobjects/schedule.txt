@@ -4,4 +4,4 @@ CSC,121,001,Python I,L,103,Flexible Online,Flexible Online
 CSC,121,002,Python I,L,104,MW 10:00–11:15,10:00–11:15
 BUS,150,001,Intro to Business,B,201,Flexible Online,Flexible Online
 ANI,101,001,Animation Basics,A,301,Flexible Online,Flexible Online
-ANI,150,001,2D Animation,A,305,T/Th 2:00–3:15,2:00–3:15
+ANI,150,001,2D Animation,A,305,T/Th 2:00-3:15,2:00-3:15

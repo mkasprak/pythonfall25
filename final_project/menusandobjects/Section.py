@@ -1,24 +1,41 @@
 """
 section.py
 ----------
-Defines the Section class used for representing course sections.
+Defines the Section class used for representing class sections.
 
-Students Will Modify:
-    • Add additional details (instructor, seats available, credits, etc.)
-    • Improve output formatting.
-    • Connect to file-based loading in main.py later in the project.
+This version mirrors the documentation style found in main.py.
+Students can refer to this file as a model for how classes store
+multiple attributes and provide methods for formatted output.
+
+File connects directly to:
+    • schedule.txt  (loaded in main.py)
+    • display_classes() function in main.py
 """
 
+# ----------------------------------------------------------------------
+# 🏫 SECTION CLASS — Represents one section of a course
+# ----------------------------------------------------------------------
 class Section:
     """
-    Represents one class section, including schedule and room information.
+    Represents one class section, including:
+        • subject abbreviation (e.g., CSC)
+        • course number (string in file → may convert to int for sorting)
+        • section number (001, 002, etc.)
+        • course title
+        • building, room
+        • meeting days, meeting time
     """
 
+    # ------------------------------------------------------------------
+    # 🏗️ INITIALIZER
+    # Creates a section object from one row of schedule.txt.
+    # ------------------------------------------------------------------
     def __init__(self, course_name, number, section,
-                 subject="ADD", building=None, room=None,
-                 days=None, time=None):
+                 subject="ADD", building="", room="",
+                 days="", time=""):
+
         self.__course_name = course_name
-        self.__number = number
+        self.__number = number            # stored as string from file
         self.__section = section
         self.__subject = subject
         self.__building = building
@@ -26,60 +43,46 @@ class Section:
         self.__days = days
         self.__time = time
 
-    # Getters
-    def get_course_name(self):
-        return self.__course_name
+    # ------------------------------------------------------------------
+    # 📥 GETTERS — used in display_classes() when grouping/sorting
+    # ------------------------------------------------------------------
+    def get_course_name(self): return self.__course_name
 
     def get_number(self):
-        return self.__number
+        """
+        Returns the course number as an integer if possible.
+        This lets main.py sort sections numerically.
+        """
+        try:
+            return int(self.__number)
+        except:
+            return self.__number
 
-    def get_section(self):
-        return self.__section
+    def get_section(self): return self.__section
+    def get_subject(self): return self.__subject
+    def get_building(self): return self.__building
+    def get_room(self): return self.__room
+    def get_days(self): return self.__days
+    def get_time(self): return self.__time
 
-    def get_subject(self):
-        return self.__subject
+    # ------------------------------------------------------------------
+    # ✏️ SETTERS — included for teaching purposes and future CRUD work
+    # ------------------------------------------------------------------
+    def set_course_name(self, v): self.__course_name = v
+    def set_number(self, v): self.__number = v
+    def set_section(self, v): self.__section = v
+    def set_subject(self, v): self.__subject = v
+    def set_building(self, v): self.__building = v
+    def set_room(self, v): self.__room = v
+    def set_days(self, v): self.__days = v
+    def set_time(self, v): self.__time = v
 
-    def get_building(self):
-        return self.__building
-
-    def get_room(self):
-        return self.__room
-
-    def get_days(self):
-        return self.__days
-
-    def get_time(self):
-        return self.__time
-
-    # Setters
-    def set_course_name(self, value):
-        self.__course_name = value
-
-    def set_number(self, value):
-        self.__number = value
-
-    def set_section(self, value):
-        self.__section = value
-
-    def set_subject(self, value):
-        self.__subject = value
-
-    def set_building(self, value):
-        self.__building = value
-
-    def set_room(self, value):
-        self.__room = value
-
-    def set_days(self, value):
-        self.__days = value
-
-    def set_time(self, value):
-        self.__time = value
-
-    # Display
+    # ------------------------------------------------------------------
+    # 🖨️ DISPLAY OUTPUT
+    # Used in main.py inside display_classes().
+    # ------------------------------------------------------------------
     def print_info(self):
-        """Print formatted class section information."""
-        print(f"{self.__subject} {self.__number}-{self.__section}: "
-              f"{self.__course_name}")
+        """Prints one formatted course section line."""
+        print(f"{self.__subject} {self.__number}-{self.__section}: {self.__course_name}")
         print(f"Location: {self.__building} Room: {self.__room}")
-        print(f"Days: {self.__days}   Time: {self.__time}")
+        print(f"Days: {self.__days}  Time: {self.__time}")

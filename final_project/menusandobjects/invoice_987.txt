@@ -1,0 +1,11 @@
+MCC Course Registration Invoice
+Student: Matthew Albright
+ID: 987
+
+Registered Classes:
+-------------------
+CDM 110-001  Intro to Computers  $307 + $7 online
+CSC 121-001  Python I  $307 + $7 online
+
+-------------------
+Total Due: $0
