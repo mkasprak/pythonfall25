@@ -244,12 +244,14 @@ def select_classes(stu):
 
         if not found:
             print("\n❌ Class not found. Try again.\n")
+            select_classes(stu)
 
         again = input("Register for another class? (y/n): ").strip().lower()
         if again != "y":
             keep_going = False
 
     billing(stu, selected_classes)
+    
 
 
 # ----------------------------------------------------------------------
@@ -300,6 +302,7 @@ def billing(stu, class_list):
         f.writelines(invoice_lines)
 
     print(f"💾 Invoice saved as {filename}\n")
+    
 
 
 # ----------------------------------------------------------------------
@@ -309,6 +312,7 @@ def main():
     directions()
     stu = student_info()
     verify_info(stu)
+ 
     display_classes()        # ← this now shows BEFORE class selection
     select_classes(stu)      # ← after seeing classes, user picks theirs
 

@@ -2,3 +2,6 @@ Meri,   Kasprak,  1234,   mkasprak@mchenry.edu,   555-555-5555,   170 Willey St,
 Michael, Albright, 3456, mosh@gmail.com, 444-444-4444, somewhere, eloy, AZ, 55555
 Kathy,Engel,6789,katengel@gmail.com,888-888-8888,19007 Millstream,Marengeo,IL ,60152
 Matthew,Albright,987,matthewlalbright@gmail.com,000-000-0000,somewhere,Monroe,NC,98732
+Meri,Kasprak,12345,mkasprak,555-555-5555,8900 route 13,Crystal Lake,IL,60013
+Meredith,Kasprak,4567,mkasprak@mchenry.edu,666-777-8888,8900 Route 14,Crystal Lake,IL,60013
+m,k,1,m,5,m,m,m,m

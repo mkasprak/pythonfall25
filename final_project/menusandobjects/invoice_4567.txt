@@ -1,0 +1,9 @@
+MCC Course Registration Invoice
+Student: Meredith Kasprak
+ID: 4567
+
+Registered Classes:
+-------------------
+
+-------------------
+Total Due: $0

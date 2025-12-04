@@ -97,14 +97,14 @@ class Student:
         Numbered format for the update menu.
         Students pick a number to edit a field.
         """
-        print(f"1. {self.__first_name}")
-        print(f"2. {self.__last_name}")
-        print(f"3. {self.__email}")
-        print(f"4. {self.__phone}")
-        print(f"5. {self.__street_address}")
-        print(f"6. {self.__city}")
-        print(f"7. {self.__state}")
-        print(f"8. {self.__zip}")
+        print(f"1. First Name:    {self.__first_name}")
+        print(f"2. Last Name:   {self.__last_name}")
+        print(f"3. Email:    {self.__email}")
+        print(f"4. Phone:    {self.__phone}")
+        print(f"5. Address:    {self.__street_address}")
+        print(f"6. City:    {self.__city}")
+        print(f"7. State:    {self.__state}")
+        print(f"8. Zip:    {self.__zip}")
 
     # ------------------------------------------------------------------
     # 💾 FILE OUTPUT

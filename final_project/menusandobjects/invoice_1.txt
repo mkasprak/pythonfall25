@@ -1,0 +1,10 @@
+MCC Course Registration Invoice
+Student: m k
+ID: 1
+
+Registered Classes:
+-------------------
+CDM 110-001  Intro to Computers  $307 + $7 online
+
+-------------------
+Total Due: $0

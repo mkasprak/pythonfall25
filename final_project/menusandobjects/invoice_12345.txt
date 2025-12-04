@@ -1,0 +1,9 @@
+MCC Course Registration Invoice
+Student: Meri Kasprak
+ID: 12345
+
+Registered Classes:
+-------------------
+
+-------------------
+Total Due: $0
